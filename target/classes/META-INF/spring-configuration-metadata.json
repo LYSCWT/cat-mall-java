@@ -1,0 +1,28 @@
+{
+  "groups": [
+    {
+      "name": "catmall.jwt",
+      "type": "com.catmall.utils.JwtUtils",
+      "sourceType": "com.catmall.utils.JwtUtils"
+    }
+  ],
+  "properties": [
+    {
+      "name": "catmall.jwt.expire",
+      "type": "java.lang.Long",
+      "sourceType": "com.catmall.utils.JwtUtils",
+      "defaultValue": 0
+    },
+    {
+      "name": "catmall.jwt.header",
+      "type": "java.lang.String",
+      "sourceType": "com.catmall.utils.JwtUtils"
+    },
+    {
+      "name": "catmall.jwt.secret",
+      "type": "java.lang.String",
+      "sourceType": "com.catmall.utils.JwtUtils"
+    }
+  ],
+  "hints": []
+}
